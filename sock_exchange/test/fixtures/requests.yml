@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  borrower_name: MyString
+  request_status: false
+  item_name: MyString
+  item_description: MyText
+  need_by_date: 2013-10-30 10:34:24
+  return_by_date: 2013-10-30 10:34:24
+  item_response_id: 1
+
+two:
+  borrower_name: MyString
+  request_status: false
+  item_name: MyString
+  item_description: MyText
+  need_by_date: 2013-10-30 10:34:24
+  return_by_date: 2013-10-30 10:34:24
+  item_response_id: 1
