@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131030153424) do
+ActiveRecord::Schema.define(version: 20131030174900) do
 
   create_table "requests", force: true do |t|
     t.string   "borrower_name"
@@ -21,6 +21,16 @@ ActiveRecord::Schema.define(version: 20131030153424) do
     t.datetime "need_by_date"
     t.datetime "return_by_date"
     t.integer  "item_response_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "home_address"
+    t.integer  "mobile"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
